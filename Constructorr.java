@@ -6,6 +6,7 @@ class Employee {
     public Employee() { // it has no return type or value
         id = 1;
         name = "Y our-Name";
+        System.out.println("I am from Employee ");
     }
 
     public Employee(int myId, String myName) {
