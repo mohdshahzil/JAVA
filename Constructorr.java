@@ -33,11 +33,11 @@ class Employee {
 
 public class Constructorr {
     public static void main(String[] args) {
-        // Employee emp = new Employee(10, "cars");
-        Employee emp = new Employee();
-        // emp.setId(5);
-        // emp.setName("shahzil");
-        System.out.println(emp.getId());
-        System.out.println(emp.getName());
+        Employee emp = new Employee(10, "cars");
+        // Employee emp = new Employee();
+        emp.setId(5);
+        emp.setName("shahzil");
+        // System.out.println(emp.getId());
+        // System.out.println(emp.getName());
     }
 }

@@ -13,10 +13,8 @@ public class Methods {
 
     public static void main(String[] args) {
         // greet();
-
         Methods obj = new Methods();
         obj.greet2();
-
         Methods s = new Methods();
         System.out.println(s.add(2, 3));
 
